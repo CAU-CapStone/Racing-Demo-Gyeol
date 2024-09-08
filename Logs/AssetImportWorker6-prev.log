@@ -1,0 +1,622 @@
+Using pre-set license
+Built from '2023.2/staging' branch; Version is '2023.2.12f1 (19eeb3b320af) revision 1699507'; Using compiler version '193431935'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'ko' Physical Memory: 32509 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2023.2.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/gyeol/Documents/Unity Projects/Auto Demo
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+51753
+-job-worker-count
+9
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/gyeol/Documents/Unity Projects/Auto Demo
+C:/Users/gyeol/Documents/Unity Projects/Auto Demo
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [72200] Host "[IP] 192.168.0.14 [Port] 0 [Flags] 2 [Guid] 3939357434 [EditorId] 3939357434 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2EIU12F) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [72200] Host "[IP] 192.168.0.14 [Port] 0 [Flags] 2 [Guid] 3939357434 [EditorId] 3939357434 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2EIU12F) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 9
+[Physics::Module] Initialized MultithreadedJobDispatcher with 9 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 2.92 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.12f1 (19eeb3b320af)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/gyeol/Documents/Unity Projects/Auto Demo/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Ti (ID=0x2482)
+    Vendor:   NVIDIA
+    VRAM:     8018 MB
+    Driver:   32.0.15.5585
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56952
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.004580 seconds.
+- Loaded All Assemblies, in  0.451 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 252 ms
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Finished resetting the current domain, in  0.621 seconds
+Domain Reload Profiling: 1070ms
+	BeginReloadAssembly (171ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (189ms)
+		LoadAssemblies (169ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (186ms)
+			TypeCache.Refresh (185ms)
+				TypeCache.ScanAssembly (170ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (622ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (573ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (366ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (10ms)
+			ProcessInitializeOnLoadAttributes (152ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\gyeol\Documents\Unity Projects\Auto Demo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gyeol\Documents\Unity Projects\Auto Demo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.903 seconds
+Refreshing native plugins compatible for Editor in 1.08 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.595 seconds
+Domain Reload Profiling: 1496ms
+	BeginReloadAssembly (318ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (495ms)
+		LoadAssemblies (356ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (243ms)
+			TypeCache.Refresh (204ms)
+				TypeCache.ScanAssembly (181ms)
+			BuildScriptInfoCaches (29ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (596ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (405ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (319ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.77 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 93 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3860 unused Assets / (23.3 MB). Loaded Objects now: 4442.
+Memory consumption went from 166.3 MB to 143.0 MB.
+Total: 10.819400 ms (FindLiveObjects: 0.365700 ms CreateObjectMapping: 0.314800 ms MarkObjects: 4.115400 ms  DeleteObjects: 6.022000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1389899.907164 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_baloon_E.FBX
+  artifactKey: Guid(4262605d7526d654e83e8802c2fd066f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_baloon_E.FBX using Guid(4262605d7526d654e83e8802c2fd066f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5eb298d05f1131cf22b1524b20cde51d') in 0.136388 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_metal_pole.FBX
+  artifactKey: Guid(06b5057ef32b5e24da59548a58c4dbd3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_metal_pole.FBX using Guid(06b5057ef32b5e24da59548a58c4dbd3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2a4baeb8bda15f40abd7681d58c3c02a') in 0.1478295 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_team_1.FBX
+  artifactKey: Guid(9ec1a48af7c4ad04c8a4b2bf7e08fbe3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_team_1.FBX using Guid(9ec1a48af7c4ad04c8a4b2bf7e08fbe3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2e0b36f6b570af9dd38a9a5244b1dc10') in 0.1719778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_adbox_B.FBX
+  artifactKey: Guid(0baf37a3d31530048a500b025d65ad7f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_adbox_B.FBX using Guid(0baf37a3d31530048a500b025d65ad7f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8b892186f38b11a6a3f1841865fd88c4') in 0.1400155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_banner_www_A.FBX
+  artifactKey: Guid(b46b48af8dd3b85429f851a2aeb6c55e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_banner_www_A.FBX using Guid(b46b48af8dd3b85429f851a2aeb6c55e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8b40948f9ef194521871f10984c60b85') in 0.0952743 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_team_8.FBX
+  artifactKey: Guid(f463dc23b3d432248afe7e7c97ccd6ad) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_team_8.FBX using Guid(f463dc23b3d432248afe7e7c97ccd6ad) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c2b25910d9cce93c4feb1368eec51b4c') in 0.1422285 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_tree_A.FBX
+  artifactKey: Guid(0e9139f6752db97468f2cf697bfd146f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_tree_A.FBX using Guid(0e9139f6752db97468f2cf697bfd146f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5f5573b8b53e4e6aae029d4f261de1e0') in 0.0399265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_tree_C.FBX
+  artifactKey: Guid(c570fdeb73931524c93813ccc8a17fda) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_tree_C.FBX using Guid(c570fdeb73931524c93813ccc8a17fda) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f7f0975ffbb09f15f43bd5d27d425931') in 0.041666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_bridge_middle.FBX
+  artifactKey: Guid(5bcf8c93da070554d9ccbfa41dbbe32f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_bridge_middle.FBX using Guid(5bcf8c93da070554d9ccbfa41dbbe32f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '85a035d9ec85b43329c9f584502449dd') in 0.1157753 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_distance_3.FBX
+  artifactKey: Guid(f8fc2f504f99b7d46a7e938418b26236) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_distance_3.FBX using Guid(f8fc2f504f99b7d46a7e938418b26236) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5a2c5c51e9ba0fe4b1516df48ab49da7') in 0.1098632 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_wall_D.FBX
+  artifactKey: Guid(b7800b05ebc712c4e95e143f047900a3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_wall_D.FBX using Guid(b7800b05ebc712c4e95e143f047900a3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ecafd9470950bd776db5518b6ffe3f95') in 0.0795353 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_tyre_4x1_B.FBX
+  artifactKey: Guid(35be21012e6193c469afbc9a761ebe46) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_tyre_4x1_B.FBX using Guid(35be21012e6193c469afbc9a761ebe46) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2ff594f08be7103bf2df150eae6ef552') in 0.0284264 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_wall_A.FBX
+  artifactKey: Guid(ff56c49c99f025a4a8f41d91fe5b7b1e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_wall_A.FBX using Guid(ff56c49c99f025a4a8f41d91fe5b7b1e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '522bd64dcf27364beae0d460a43695b5') in 0.0878547 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Materials/FENCE.mat
+  artifactKey: Guid(2511084f53954bc40b2d3c2d64cec4c3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Materials/FENCE.mat using Guid(2511084f53954bc40b2d3c2d64cec4c3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '774af725747d411ad8e64f5c39745581') in 0.0225859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_metal_pole.prefab
+  artifactKey: Guid(6013d73922d0dfb41914e10f21172d93) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_metal_pole.prefab using Guid(6013d73922d0dfb41914e10f21172d93) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0dd9e309c0ca0a35dc4b15a6b0cdd446') in 0.0332884 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Race Car Package/Material/Mat.5_2.mat
+  artifactKey: Guid(21650591fb6286b4293be426dc0621bf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Race Car Package/Material/Mat.5_2.mat using Guid(21650591fb6286b4293be426dc0621bf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f27660c4445927b8cc7a36eba9ce2add') in 0.0223699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg
+  artifactKey: Guid(85ac55597b97403c82fc6601a93cf241) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg using Guid(85ac55597b97403c82fc6601a93cf241) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f426a0eda3a20749219bbe83580b3ad9') in 0.0471935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs
+  artifactKey: Guid(f970ea55f9f84bf79b05dab180b8c125) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs using Guid(f970ea55f9f84bf79b05dab180b8c125) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '06a81a1ebcd4eddfe76a101803c31866') in 0.0111567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Circle.psd
+  artifactKey: Guid(10c49fcd9c64421db7c0133e61e55f97) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Circle.psd using Guid(10c49fcd9c64421db7c0133e61e55f97) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6a65defc66c4bf8849754ce3647b96bb') in 0.0245689 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PROMETEO - Car Controller/Scenes/More Cars.pdf
+  artifactKey: Guid(83e25f10822c92148aebec84a4eac3d0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PROMETEO - Car Controller/Scenes/More Cars.pdf using Guid(83e25f10822c92148aebec84a4eac3d0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'da8bc8bb63138ca5d38c438ee6395d88') in 0.0108685 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_team_9.FBX
+  artifactKey: Guid(3cbc8db4aa2c3c541ae38a9e67728ea9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_team_9.FBX using Guid(3cbc8db4aa2c3c541ae38a9e67728ea9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '007d6dccd009bf7d8677e7f90f1f1e3a') in 0.1206783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat
+  artifactKey: Guid(e6b276ec991f467aa14ef1f3cc665993) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat using Guid(e6b276ec991f467aa14ef1f3cc665993) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a0255ab48541cd340f0760090cd4fd30') in 0.0402644 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Track_Meshes/OvalModular/oval_mod_tyres.FBX
+  artifactKey: Guid(7190964c445f2324f9f142d693d3a05c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Track_Meshes/OvalModular/oval_mod_tyres.FBX using Guid(7190964c445f2324f9f142d693d3a05c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0cd0fb3dd968991a868db7baf26955c8') in 0.1144325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 141
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Track_Meshes/OvalModular/oval_mod_trees.FBX
+  artifactKey: Guid(6306af7c7eb1c114eb364ed8a401c609) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Track_Meshes/OvalModular/oval_mod_trees.FBX using Guid(6306af7c7eb1c114eb364ed8a401c609) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '930eff7cd67780444db875a48918c1b0') in 0.2906642 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 131
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Baloons/prop_baloon_D.prefab
+  artifactKey: Guid(6f1c068ed03fc3149b8e09cd64181d37) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Baloons/prop_baloon_D.prefab using Guid(6f1c068ed03fc3149b8e09cd64181d37) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3af9cbef102b2a8b1c23faa4500dacb7') in 0.0245048 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Baloons/prop_baloon_C.prefab
+  artifactKey: Guid(79dba878759f2a34eb4af105c6c5bb20) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Baloons/prop_baloon_C.prefab using Guid(79dba878759f2a34eb4af105c6c5bb20) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '74716c4be3ff8a36acfe866e40e9baec') in 0.0328189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_13.prefab
+  artifactKey: Guid(56eb2457054d33841820e62ae0a64ce1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_13.prefab using Guid(56eb2457054d33841820e62ae0a64ce1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cc246cf7ba539c2d31f65cb7e75ddccd') in 0.0236519 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_18.prefab
+  artifactKey: Guid(ef6136efe92436948ac3de0121241a7b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_18.prefab using Guid(ef6136efe92436948ac3de0121241a7b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'be74feab11071e95d24b899fb3428df3') in 0.0227877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Barriers/prop_barrier_2M.prefab
+  artifactKey: Guid(808e1826575c4c14b9c27c0a6c1c5dd3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Barriers/prop_barrier_2M.prefab using Guid(808e1826575c4c14b9c27c0a6c1c5dd3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e8114d4d8310e578fcb2a0f8f948e6d0') in 0.0247543 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat
+  artifactKey: Guid(b246c4190f4e46ec9352fe15a7b09ce0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat using Guid(b246c4190f4e46ec9352fe15a7b09ce0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5824ca7aee8085dca271dcbe09cc75f2') in 0.0185269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Baloons/prop_baloon_E.prefab
+  artifactKey: Guid(9646fa6ed5e4cef4b8ab69fd8bc12f72) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Baloons/prop_baloon_E.prefab using Guid(9646fa6ed5e4cef4b8ab69fd8bc12f72) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7019c83afbeed9c5cb4c0baed63825d4') in 0.0282704 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Track_Meshes/OvalModular/oval_mod_terrain.FBX
+  artifactKey: Guid(3300383886eb02f448192410b7787ff0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Track_Meshes/OvalModular/oval_mod_terrain.FBX using Guid(3300383886eb02f448192410b7787ff0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '21413e834aebf4764992c2ebed4ec699') in 0.0539691 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 111
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_4.prefab
+  artifactKey: Guid(d8f241943b5e2814c8ec6be1022ea2a5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_4.prefab using Guid(d8f241943b5e2814c8ec6be1022ea2a5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '625aa976cbef65ae087ea216a89150bf') in 0.0326779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat
+  artifactKey: Guid(f2dcf029949142e28b974630369c8b4e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat using Guid(f2dcf029949142e28b974630369c8b4e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7d324ebc480fb7e6b790c5d7118b781b') in 0.0244485 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Banners/prop_banner_medium_C.prefab
+  artifactKey: Guid(51087d8cae282b94a9c6e494c3062f9f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Banners/prop_banner_medium_C.prefab using Guid(51087d8cae282b94a9c6e494c3062f9f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f6a6eae8f746b342256949cf4d800fb5') in 0.0302966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat
+  artifactKey: Guid(8b29aaa3eec7468097ff07adfcf29ac9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat using Guid(8b29aaa3eec7468097ff07adfcf29ac9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f2086093912d04d127c8cd6a474bd55b') in 0.0309448 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/Default Sprite Asset.asset
+  artifactKey: Guid(fbef3c704dce48f08a44612d6c856c8d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/Default Sprite Asset.asset using Guid(fbef3c704dce48f08a44612d6c856c8d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd87cec97f44cc71ccdc23aea24cde636') in 0.0218435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Barriers/prop_barrier_pole.prefab
+  artifactKey: Guid(8f5ba75355860994db7f47485c36ce19) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Barriers/prop_barrier_pole.prefab using Guid(8f5ba75355860994db7f47485c36ce19) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e1799fa84b4bce1a002ab07593640643') in 0.0279651 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Track_Meshes/OvalModular/oval_mod_seats.FBX
+  artifactKey: Guid(293f92aa499df8046aafc2ff7fe540f5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Track_Meshes/OvalModular/oval_mod_seats.FBX using Guid(293f92aa499df8046aafc2ff7fe540f5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5f48bd4df6827d866f808aaad37fdde6') in 0.1460171 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 81
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Tyres/prop_tyre_4x8.prefab
+  artifactKey: Guid(87b71185968dc4c4d9435c0493064027) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Tyres/prop_tyre_4x8.prefab using Guid(87b71185968dc4c4d9435c0493064027) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8b32860540c00c64cd8981d17c3ba764') in 0.0226581 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Tyres/prop_tyre_4x1_A.prefab
+  artifactKey: Guid(6b4c664517cfbd04ab97aa1547a73a9a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Tyres/prop_tyre_4x1_A.prefab using Guid(6b4c664517cfbd04ab97aa1547a73a9a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eb1f018bd661faa96707b8e104beef8d') in 0.0274567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Banners/prop_banner_medium_D.prefab
+  artifactKey: Guid(58e5bfb3aacaaea4caf90884068349f4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Banners/prop_banner_medium_D.prefab using Guid(58e5bfb3aacaaea4caf90884068349f4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9a786963ee5f40ac5a268b3f3b39fe43') in 0.0305035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs
+  artifactKey: Guid(a4d4c76e63944cba8c7d00f56334b98c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs using Guid(a4d4c76e63944cba8c7d00f56334b98c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '24a796c9a1a8853216651ea3b9aa8152') in 0.0096085 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs
+  artifactKey: Guid(9eff140b25d64601aabc6ba32245d099) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs using Guid(9eff140b25d64601aabc6ba32245d099) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b4aeb20ba44a749b02a117c45f500bd3') in 0.0091897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_team_18.FBX
+  artifactKey: Guid(2ab84962161735e41989998c7c9e1a83) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_team_18.FBX using Guid(2ab84962161735e41989998c7c9e1a83) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '40a1a6de96775aa7fcb68233957f0343') in 0.0892772 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs
+  artifactKey: Guid(2d687537154440a3913a9a3c7977978c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs using Guid(2d687537154440a3913a9a3c7977978c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '57a781810fbdd97d14b8f108cfe5c35a') in 0.0114426 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

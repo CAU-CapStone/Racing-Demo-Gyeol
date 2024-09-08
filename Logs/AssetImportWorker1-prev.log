@@ -1,0 +1,552 @@
+Using pre-set license
+Built from '2023.2/staging' branch; Version is '2023.2.12f1 (19eeb3b320af) revision 1699507'; Using compiler version '193431935'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'ko' Physical Memory: 32509 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2023.2.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/gyeol/Documents/Unity Projects/Auto Demo
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+51753
+-job-worker-count
+9
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/gyeol/Documents/Unity Projects/Auto Demo
+C:/Users/gyeol/Documents/Unity Projects/Auto Demo
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [69952] Host "[IP] 192.168.0.14 [Port] 0 [Flags] 2 [Guid] 1737117106 [EditorId] 1737117106 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2EIU12F) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [69952] Host "[IP] 192.168.0.14 [Port] 0 [Flags] 2 [Guid] 1737117106 [EditorId] 1737117106 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2EIU12F) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 9
+[Physics::Module] Initialized MultithreadedJobDispatcher with 9 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 1.81 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.12f1 (19eeb3b320af)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/gyeol/Documents/Unity Projects/Auto Demo/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Ti (ID=0x2482)
+    Vendor:   NVIDIA
+    VRAM:     8018 MB
+    Driver:   32.0.15.5585
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56228
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.003136 seconds.
+- Loaded All Assemblies, in  0.314 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 202 ms
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Finished resetting the current domain, in  0.498 seconds
+Domain Reload Profiling: 811ms
+	BeginReloadAssembly (111ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (129ms)
+		LoadAssemblies (110ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (126ms)
+			TypeCache.Refresh (125ms)
+				TypeCache.ScanAssembly (114ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (498ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (461ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (288ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (123ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\gyeol\Documents\Unity Projects\Auto Demo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gyeol\Documents\Unity Projects\Auto Demo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.677 seconds
+Refreshing native plugins compatible for Editor in 1.10 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.514 seconds
+Domain Reload Profiling: 1189ms
+	BeginReloadAssembly (256ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (355ms)
+		LoadAssemblies (287ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (159ms)
+			TypeCache.Refresh (133ms)
+				TypeCache.ScanAssembly (121ms)
+			BuildScriptInfoCaches (20ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (515ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (358ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (37ms)
+			ProcessInitializeOnLoadAttributes (286ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.16 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 93 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3859 unused Assets / (23.3 MB). Loaded Objects now: 4441.
+Memory consumption went from 166.3 MB to 143.0 MB.
+Total: 7.030600 ms (FindLiveObjects: 0.439200 ms CreateObjectMapping: 0.173900 ms MarkObjects: 2.813100 ms  DeleteObjects: 3.603400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1377324.999163 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74fc8f8b714d5966f523153cf0274ab2') in 0.0046258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.887511 seconds.
+  path: Assets/Race Car Package/Textures/blue car.png
+  artifactKey: Guid(a3f238c2c197d2c4baae4bbf76a82cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Race Car Package/Textures/blue car.png using Guid(a3f238c2c197d2c4baae4bbf76a82cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24571034f8cd659b0bf246ceeb600cc5') in 0.0677729 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Race Car Package/Textures/yellow car.png
+  artifactKey: Guid(f8e4e0616f734d543b90ba653384c9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Race Car Package/Textures/yellow car.png using Guid(f8e4e0616f734d543b90ba653384c9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9822d5c070fc77562c3b3adec66b2848') in 0.0163928 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\gyeol\Documents\Unity Projects\Auto Demo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gyeol\Documents\Unity Projects\Auto Demo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.496 seconds
+Refreshing native plugins compatible for Editor in 1.74 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.504 seconds
+Domain Reload Profiling: 1000ms
+	BeginReloadAssembly (150ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (288ms)
+		LoadAssemblies (257ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (111ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (100ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (505ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (334ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (33ms)
+			ProcessInitializeOnLoadAttributes (262ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 1.78 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3857 unused Assets / (23.1 MB). Loaded Objects now: 4447.
+Memory consumption went from 153.1 MB to 130.0 MB.
+Total: 6.826200 ms (FindLiveObjects: 0.312800 ms CreateObjectMapping: 0.221400 ms MarkObjects: 3.012400 ms  DeleteObjects: 3.278700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\gyeol\Documents\Unity Projects\Auto Demo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gyeol\Documents\Unity Projects\Auto Demo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.489 seconds
+Refreshing native plugins compatible for Editor in 1.19 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.527 seconds
+Domain Reload Profiling: 1015ms
+	BeginReloadAssembly (145ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (284ms)
+		LoadAssemblies (248ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (114ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (100ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (528ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (357ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (34ms)
+			ProcessInitializeOnLoadAttributes (285ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 1.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3857 unused Assets / (23.0 MB). Loaded Objects now: 4448.
+Memory consumption went from 155.0 MB to 132.0 MB.
+Total: 7.166100 ms (FindLiveObjects: 0.325500 ms CreateObjectMapping: 0.218300 ms MarkObjects: 3.056400 ms  DeleteObjects: 3.565100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\gyeol\Documents\Unity Projects\Auto Demo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gyeol\Documents\Unity Projects\Auto Demo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.509 seconds
+Refreshing native plugins compatible for Editor in 1.31 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.514 seconds
+Domain Reload Profiling: 1023ms
+	BeginReloadAssembly (151ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (290ms)
+		LoadAssemblies (245ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (127ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (112ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (514ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (348ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (271ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 1.45 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3857 unused Assets / (23.0 MB). Loaded Objects now: 4449.
+Memory consumption went from 157.0 MB to 133.9 MB.
+Total: 8.276900 ms (FindLiveObjects: 0.342200 ms CreateObjectMapping: 0.314800 ms MarkObjects: 3.875800 ms  DeleteObjects: 3.742700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 278.986175 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Track_Meshes/OvalModular/oval_mod_walls.FBX
+  artifactKey: Guid(da5412f428dfcdf438602dca80ddfb29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Track_Meshes/OvalModular/oval_mod_walls.FBX using Guid(da5412f428dfcdf438602dca80ddfb29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c48bdd921fb3c122481c96bb62693af') in 0.3532862 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 233
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.636680 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_wall_D.FBX
+  artifactKey: Guid(b7800b05ebc712c4e95e143f047900a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_wall_D.FBX using Guid(b7800b05ebc712c4e95e143f047900a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2df5003350d0a502f2eb46ad7787d568') in 0.075678 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_team_20.FBX
+  artifactKey: Guid(4d2ab033a89b16941afc1a9eb2d7ac05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_team_20.FBX using Guid(4d2ab033a89b16941afc1a9eb2d7ac05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2a9b322c3a973bed80c9633b69f9c3c') in 0.0724636 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_baloon_A.FBX
+  artifactKey: Guid(276698ad9617fed4f9802f3cda8dc35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_baloon_A.FBX using Guid(276698ad9617fed4f9802f3cda8dc35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '767e53b993b2f44739e9bbf2ae03fdd3') in 0.0291057 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_garage.FBX
+  artifactKey: Guid(3229334464e594d4faea04f998792f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_garage.FBX using Guid(3229334464e594d4faea04f998792f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ba15147849b8c8bb0d43528625d6cb1') in 0.1177407 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_baloon_D.FBX
+  artifactKey: Guid(cab9e07ba6f7eec49afd902cc293b022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_baloon_D.FBX using Guid(cab9e07ba6f7eec49afd902cc293b022) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88e311c71eff5826e0011662fd477124') in 0.0207811 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_baloon_F.FBX
+  artifactKey: Guid(6889c60a505e2674591635978d6b3f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_baloon_F.FBX using Guid(6889c60a505e2674591635978d6b3f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '68f4e10d8149928d3bd35a9ec5d5f6d2') in 0.0239342 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_baloon_G.FBX
+  artifactKey: Guid(9ab688a3236b2b346ae9cf9153cd02d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_baloon_G.FBX using Guid(9ab688a3236b2b346ae9cf9153cd02d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33615b9a2cea85434e313bde6b8aae5d') in 0.0248825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_baloon_C.FBX
+  artifactKey: Guid(328aadb935b3c864db0c3ee4fef17145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_baloon_C.FBX using Guid(328aadb935b3c864db0c3ee4fef17145) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3143d35838179356bb6a546f17ca5939') in 0.0233838 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Track_Meshes/OvalModular/oval_mod_terrain.FBX
+  artifactKey: Guid(3300383886eb02f448192410b7787ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Track_Meshes/OvalModular/oval_mod_terrain.FBX using Guid(3300383886eb02f448192410b7787ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6bc8d51af2dff5606ec9bf4e255c9cc1') in 0.1649104 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 111
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_team_19.FBX
+  artifactKey: Guid(7b2d5fc0c74776240bfb2aa8c915a2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_team_19.FBX using Guid(7b2d5fc0c74776240bfb2aa8c915a2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '37648bde83ed7ce6a06039a6f1483a39') in 0.0891321 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_arrow_long.FBX
+  artifactKey: Guid(617e37e9cc33e0242a0b6985aa49d8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_arrow_long.FBX using Guid(617e37e9cc33e0242a0b6985aa49d8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fef43624d47c178824bc18058d91eb81') in 0.0768808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_baloon_E.FBX
+  artifactKey: Guid(4262605d7526d654e83e8802c2fd066f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_baloon_E.FBX using Guid(4262605d7526d654e83e8802c2fd066f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e59e1b03dcdb3706f7c6da1e5c034cc7') in 0.0247844 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_team_18.FBX
+  artifactKey: Guid(2ab84962161735e41989998c7c9e1a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_team_18.FBX using Guid(2ab84962161735e41989998c7c9e1a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90e8c55279015c0effc7e496286f580b') in 0.0813593 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Track_Meshes/OvalModular/oval_complete_colliders.FBX
+  artifactKey: Guid(6045173226090e44fa1a03375d2b519a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Track_Meshes/OvalModular/oval_complete_colliders.FBX using Guid(6045173226090e44fa1a03375d2b519a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9123cfd477ceb6f2e694296195ef7d64') in 0.265834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 251
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_wall_B.FBX
+  artifactKey: Guid(1ca723527db231e44ab816b73689a9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_wall_B.FBX using Guid(1ca723527db231e44ab816b73689a9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '426355ff5abcb4ddb71385a68a2e45a5') in 0.0829628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
